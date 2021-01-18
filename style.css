@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image {
+  height: 450px;
+  background-image: url("bikee.jpg");
+}
+.nav-link {
+  color: white !important;
+  margin: 0px 10px;
+}
+.navbar-brand {
+  color: white !important;
+}
+.first-div1 {
+  width: 55%;
+  padding: 0px 20px;
+  float: left;
+  height: 350px;
+  margin-top: 50px;
+  color: white;
+}
+.first-div-a {
+  text-decoration: none;
+  color: white;
+}
+.first-div2 {
+  width: 45%;
+  float: left;
+  height: 350px;
+  color: white;
+  margin-top: 50px;
+}
+.first-div2 > h1 {
+  text-align: center;
+}
+.skill > h2 {
+  text-align: center;
+}
+.about-head {
+  font-style: italic;
+  font-family: cursive;
+  font-weight: 600;
+}
+.about-img {
+  width: 500px;
+  height: 500px;
+}
+.contact-name > h4 {
+  color: gray;
+}
+.card1 {
+  float: left;
+}
+.contact-name {
+  float: left;
+  width: 45%;
+  margin-left: 15px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+.project {
+  display: flex;
+  justify-content: center;
+}
+.project-a {
+  text-decoration: none;
+  color: white;
+}
+.project-a2 {
+  text-decoration: none;
+  color: black;
+}
+.contact-height {
+  height: 500px;
+}
+.c-nav {
+  background-color: black;
+}
+.slide-img {
+  width: 100%;
+  height: 500px;
+}
+.intro {
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.slide-img1 {
+  width: 100%;
+  height: 550px;
+}
+.card-img {
+  border: none;
+}
+.navbar-nav {
+  margin-left: auto;
+}

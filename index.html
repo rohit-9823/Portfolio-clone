@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div class="image">
+      <!-- ///////////////////////////Navbar/////////////////////////////// -->
+      <nav class="navbar navbar-expand-lg navbar navbar-dark" id="navbar-example2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec1">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec2">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec3">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec4">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- //////////first-div//////////////////////////// -->
+      <div class="container">
+        <div class="first-div1">
+          <h1>01</h1>
+          <hr />
+           <h5>Work Collection</h5>
+          <ul>
+            <a class="first-div-a" href="web.html">  <li>Web Designing</li></a>
+          <a class="first-div-a" href="c.html">  <li>C Programming</li></a>
+          <a class="first-div-a" href="react.html"><li>React Developer</li></a>
+        </ul>
+        <hr>
+        <p style="font-family: cursive;font-weight: 700;">"Afno desh ma kei garchu nasake bidesh janxu"</p>
+        <p style="float: left;"> -Rohit Singh</p>
+        </div>
+        <div class="first-div2">
+          <h1>"Hard Work"</h1>
+          <br />
+          <p>
+            A dream does not become reality through magic; it takes sweat,
+            determination, and hard work. ~ Colin Powell, former U.S. Defense
+            Secretary
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <br />
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <!-- /////////////////////////////////////About//////////////////////////// -->
+    <div class="container" id="sec1">
+      <h1 style="text-align: center">About</h1>
+      <hr />
+      <div
+        class="row featurette m-5 justify-content-center align-items-center d-flex"
+      >
+        <div class="col-md-7">
+          <h2 class="featurette-heading about-head">"About Me".</h2>
+          <br />
+          <p class="lead">
+            My name is Rohit Singh, and my portfolio is a representation of all
+            that I've learned and accomplished as an IT student. I am a web
+            developer and an employee with many years of experience as web
+            developer, React developer, python developer and so on.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="rohit.png"
+            alt=""
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////my skill////////////////////////// -->
+    <div class="container my-5" id="sec2">
+      <h1 style="text-align: center">My Skills</h1>
+      <hr />
+      <div class="row">
+        <div class="col-lg-4 shadow-lg p-3 mb-5 bg-white rounded skill">
+          <img
+            src="c.png"
+            alt=""
+            class="skill-img img-thumbnail rounded mx-auto d-block"
+          />
+
+          <h2>C</h2>
+          <br />
+          <p>
+            The C programming language is a computer programming language that
+            was developed to do system programming for the operating system UNIX
+            and is an imperative programming language. C was developed in the
+            early 1970s by Ken Thompson and Dennis Ritchie at Bell Labs. ...
+            This is why C is called a "portable" language. Inventor: Dennis
+            Ritchie
+          </p>
+          <p>
+            <a
+              class="btn btn-primary skill-view d-grid gap-2 col-6 mx-auto"
+              href="c.html"
+              role="button"
+              >View details »</a
+            >
+          </p>
+        </div>
+
+        <div class="col-lg-4 shadow-lg p-3 mb-5 bg-white rounded skill">
+          <img
+            src="web.jpg"
+            alt=""
+            class="skill-img img-thumbnail rounded mx-auto d-block"
+          />
+
+          <h2>Web Development</h2>
+          <br />
+          <p>
+            Web development is the building and maintenance of websites; it's
+            the work that happens behind the scenes to make a website look
+            great, work fast and perform well with a seamless user experience.
+            Web developers, or 'devs', do this by using a variety of coding
+            languages.It is the building and maintenance of websites
+          </p>
+          <p>
+            <a
+              class="btn btn-primary d-grid gap-2 col-6 mx-auto"
+              href="web.html"
+              role="button"
+              >View details »</a
+            >
+          </p>
+        </div>
+        <div class="col-lg-4 shadow-lg p-3 mb-5 bg-white rounded skill">
+          <img
+            src="react.png"
+            alt=""
+            class="skill-img img-thumbnail rounded mx-auto d-block"
+          />
+
+          <h2>React</h2>
+          <br />
+          <p>
+            React is a JavaScript library created for building fast and
+            interactive user interfaces for web and mobile applications. It is
+            an open-source, component-based, front-end library responsible only
+            for the application's view layer.JavaScript library for building
+            user interfaces or UI components. It is maintained by Facebook.React
+            is JavaScript library for building user interfaces
+          </p>
+          <p>
+            <a
+              class="btn btn-primary d-grid gap-2 col-6 mx-auto"
+              href="react.html"
+              role="button"
+              >View details »</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+      <!-- //////////////////////contact///////////////////////////////// -->
+      <div class="container" id="sec4">
+      <h1 style="text-align: center">Contact</h1>
+      <hr>
+      <div class="col-md-100">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative contact-height"
+        >
+          <!-- ////////////////////contact////////// -->
+          <div class="card w-50 card1">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Contact no.</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Remember Me</label
+                  >
+                </div>
+                <!-- Button trigger modal -->
+<button type="submit"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sent Successfully!!!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+              </form>
+            </div>
+          </div>
+          <!-- //////////////////////////right-side/////////////////////// -->
+          <div class="contact-name">
+            <br />
+            <h3>Contact Me</h3>
+            <br />
+            <h4>Name</h4>
+            <span>Rohit Singh</span><br /><br />
+            <h4>Location</h4>
+            <span>Kalimati, Kathmandu</span><br /><br />
+            <h4>Phone</h4>
+            <span>+9779841329293</span><br /><br />
+            <h4>E-Mail</h4>
+            <span>hakunamatata@gmail.com</span><br /><br />
+            <h4>Github</h4>
+            <span>rohit-9823</span><br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///////////////////////////Projects////////////////////////// -->
+    <div class="container">
+      <h1 style="text-align: center">Projects</h1><hr>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 mx-auto project" id="sec3">
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <a href="https://github.com/rohit-9823" class="project-a">
+      <div class="my-3 py-3">
+        <h4 >Student management system</h4>
+        <p class="lead">In ANSI C.</p>
+      </div>
+      <img src="c.png" alt="" style="width: 48%; height: 150px; border-radius: 50px;">
+    </a>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <a href="https://github.com/rohit-9823" class="project-a2">
+      <div class="my-3 p-3">
+        <h4 >Big-Bike</h4>
+        <p class="lead">In HTML,CSS,JAVASCRIPT,PHP.</p>
+      </div>
+      <img src="js.png" alt="" style="width: 60%; height: 200px; border-radius: 20px;">
+    </a>
+  </div>
+    </div>
+    </div>
+    <!-- ///////////////////////////footer///////////////////////////// -->
+    <footer class="mt-5">
+      <p>
+        Blog template built for
+        <a href="https://getbootstrap.com/">Bootstrap</a> by
+        <a href="https://www.facebook.com/rocky.singh.902819/">@Rohit-singh</a>.
+      </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+  </body>
+</html>
